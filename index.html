@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>...</title>
+</head>
+<body>
+    <div class="all">
+<div class="opi">  
+<input type="color" onchange="mudarCor()" name="cor" id="cor">
+
+<label for="texto">Texto</label>
+<textarea placeholder="Exemplo:Olá eu sou o Marco!" name="texto" onchange="mudarTexto()" id="texto" cols="20" rows="10"></textarea>
+   <label for="font">Font-Size</label>
+<input onchange="mudarFont()" name="font" type="number" id="fontSize">
+
+
+
+<input type="range" min="0" max="200" value="0" id="borda" onchange="mudarBorderRadius()">
+
+</div>
+
+<div class="container">
+    <h1>Sandbox DevSimulator</h1>
+
+     <p id="test" class="msg"></p>
+  
+  </div>
+  
+</div>
+<p class="ft">Teste para Js e lógica de programação, por Marco Marchi</p>
+<script src="main.js"></script>
+</body>
+</html>

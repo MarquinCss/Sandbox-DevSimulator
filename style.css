@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body{
+       background-image: linear-gradient(45deg, #4c9db6bd 0%, #4b0082 90%, 	#233838 20%);
+background-size:100%;
+background-position: top center;
+background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+.container{
+    border: 1px solid black;
+    margin-left:25px;
+    background-color: #7dc0ff;
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+    border-radius:50px;
+    width:400px;
+    height:400px;
+    
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .msg{
+    text-align: center;
+   
+}
+
+.opi{
+     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:20px;
+    background-color: #5425a0;
+    height:400px;
+    border-radius:30px;
+}
+
+.opi textarea{
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:20px;
+}
+
+.ft{
+    text-align: center;
+    font-size:24px;
+}
+
+input{
+    border-radius:30px;
+    width:100px;
+    height:30px;
+    text-align: center;
+}
+
+textarea{
+    max-width:300px;
+    max-height:50px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
